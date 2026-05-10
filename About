@@ -1,0 +1,6 @@
+🌐 Distributed Architecture Rationale (English)
+
+    "This project utilizes a distributed architecture to optimize computational resource allocation and ensure real-time response. 
+The high-level vision layer (YOLOv8/OpenCV) runs on a Linux host to manage intensive AI tasks. Hardware actuation is delegated to an Arduino Uno for precise, 
+non-blocking PWM servo control, while a dedicated ESP32 node handles high-frequency Time-of-Flight (ToF) telemetry via I2C. 
+This separation of concerns prevents latency in the perception-action loop, a critical requirement for autonomous robotic manipulation."
