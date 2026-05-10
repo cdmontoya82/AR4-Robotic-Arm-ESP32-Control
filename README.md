@@ -19,6 +19,11 @@ This project implements a sophisticated control pipeline that bridges the gap be
 * **Vision Node:** ESP32-CAM.
 * **Distance Sensor:** VL53L1X Time-of-Flight (ToF) via ESP32.
 
+* ## 📐 Mechanical Design & Blueprints
+The physical structure is based on the AR4 6-axis architecture. You can find the detailed technical drawings and assembly plans in the following directory:
+
+* 📁 [View Design Plans](hardware/) - Includes wiring diagrams, 3D models, and axis dimensions.
+
 ## 💻 Software & Libraries
 * **Language:** Python 3.10+
 * **Vision:** OpenCV, Ultralytics (YOLOv8)
