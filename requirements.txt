@@ -1,4 +1,10 @@
+# --- Core Computer Vision & AI ---
 ultralytics>=8.0.0
 opencv-python
-pyserial
 numpy
+
+# --- Hardware Communication ---
+pyserial
+
+# --- Utilities ---
+datetime
